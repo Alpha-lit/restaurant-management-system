@@ -3,7 +3,7 @@ import { Card, Row, Col, Statistic, Table, DatePicker, Space } from 'antd';
 import { DollarOutlined, ShoppingCartOutlined, UserOutlined } from '@ant-design/icons';
 import { useSelector } from 'react-redux';
 import api from '../../services/api';
-
+ 
 const { RangePicker } = DatePicker;
 
 const DailySales = () => {

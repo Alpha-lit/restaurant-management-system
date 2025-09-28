@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import api from '../../services/api';
 import OrderForm from './OrderForm';
 import OrderDetail from './OrderDetail';
-
+ 
 const OrderList = () => {
   const [orders, setOrders] = useState([]);
   const [tables, setTables] = useState([]);

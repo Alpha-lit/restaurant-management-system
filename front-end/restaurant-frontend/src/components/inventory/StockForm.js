@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal, Form, Select, InputNumber } from 'antd';
 
 const { Option } = Select;
-
+ 
 const StockForm = ({ visible, onCreate, onCancel, stock, ingredients = [] }) => {
   const [form] = Form.useForm();
 

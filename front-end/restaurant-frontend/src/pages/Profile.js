@@ -3,7 +3,7 @@ import { Card, Form, Input, Button, Upload, message, Avatar } from 'antd';
 import { UserOutlined, MailOutlined, PhoneOutlined, EditOutlined } from '@ant-design/icons';
 import { useSelector } from 'react-redux';
 import api from '../services/api';
-
+ 
 const { TextArea } = Input;
 
 const Profile = () => {

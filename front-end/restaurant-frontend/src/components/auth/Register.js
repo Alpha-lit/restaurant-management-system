@@ -3,7 +3,7 @@ import { Form, Input, Button, Card, Select, message } from 'antd';
 import { UserOutlined, LockOutlined, MailOutlined, PhoneOutlined } from '@ant-design/icons';
 import { Link, useNavigate } from 'react-router-dom';
 import api from '../../services/api';
-
+ 
 const { Option } = Select;
 
 const Register = () => {

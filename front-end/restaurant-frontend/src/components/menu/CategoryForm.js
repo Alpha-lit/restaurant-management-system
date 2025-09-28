@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Form, Input, Button, Upload, message } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
-
+ 
 const CategoryForm = ({ visible, onCreate, onCancel, category }) => {
   const [form] = Form.useForm();
   const [fileList, setFileList] = React.useState([]);

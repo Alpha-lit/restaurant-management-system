@@ -4,7 +4,7 @@ import { PlusOutlined } from '@ant-design/icons';
 import { useSelector } from 'react-redux';
 import api from '../../services/api';
 import StockForm from './StockForm';
-
+ 
 const { TabPane } = Tabs;
 
 const StockList = () => {

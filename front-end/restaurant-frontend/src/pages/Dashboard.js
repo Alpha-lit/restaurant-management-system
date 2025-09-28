@@ -3,7 +3,7 @@ import { Row, Col, Card, Statistic, Table, Tag } from 'antd';
 import { UserOutlined, ShoppingCartOutlined, DollarOutlined, TableOutlined } from '@ant-design/icons';
 import { useSelector } from 'react-redux';
 import api from '../services/api';
-
+ 
 const Dashboard = () => {
   const { user } = useSelector(state => state.auth);
   const [stats, setStats] = useState({

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from 'antd';
 import AppHeader from './Header';
-
+ 
 const { Content, Footer } = Layout;
 
 const AppLayout = ({ children }) => {
